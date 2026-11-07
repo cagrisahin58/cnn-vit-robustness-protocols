@@ -1,0 +1,128 @@
+{
+ "seed": 42,
+ "n_bootstrap": 10000,
+ "n_permutation": 20000,
+ "ss_definition": "target_clean_correct & source_clean_correct & source_adv_wrong",
+ "protocols": {
+  "raw": {
+   "CNN_to_ViT": {
+    "rate": 41.59,
+    "n_conditioned": 10000,
+    "ci95": [
+     40.64,
+     42.54
+    ]
+   },
+   "ViT_to_CNN": {
+    "rate": 27.76,
+    "n_conditioned": 10000,
+    "ci95": [
+     26.92,
+     28.63
+    ]
+   },
+   "diff_CNNtoViT_minus_ViTtoCNN": 13.83
+  },
+  "target_correct": {
+   "CNN_to_ViT": {
+    "rate": 20.08,
+    "n_conditioned": 7301,
+    "ci95": [
+     19.18,
+     21.0
+    ]
+   },
+   "ViT_to_CNN": {
+    "rate": 16.11,
+    "n_conditioned": 8605,
+    "ci95": [
+     15.35,
+     16.89
+    ]
+   },
+   "diff_CNNtoViT_minus_ViTtoCNN": 3.97
+  },
+  "both_correct": {
+   "CNN_to_ViT": {
+    "rate": 18.44,
+    "n_conditioned": 6991,
+    "ci95": [
+     17.52,
+     19.34
+    ]
+   },
+   "ViT_to_CNN": {
+    "rate": 10.2,
+    "n_conditioned": 6991,
+    "ci95": [
+     9.5,
+     10.91
+    ]
+   },
+   "diff_CNNtoViT_minus_ViTtoCNN": 8.24
+  },
+  "successful_source": {
+   "CNN_to_ViT": {
+    "rate": 35.86,
+    "n_conditioned": 2811,
+    "ci95": [
+     34.04,
+     37.67
+    ]
+   },
+   "ViT_to_CNN": {
+    "rate": 17.47,
+    "n_conditioned": 3733,
+    "ci95": [
+     16.26,
+     18.7
+    ]
+   },
+   "diff_CNNtoViT_minus_ViTtoCNN": 18.39
+  },
+  "successful_source_loose": {
+   "CNN_to_ViT": {
+    "rate": 37.97,
+    "n_conditioned": 3121,
+    "ci95": [
+     36.3,
+     39.7
+    ]
+   },
+   "ViT_to_CNN": {
+    "rate": 24.78,
+    "n_conditioned": 5347,
+    "ci95": [
+     23.64,
+     25.96
+    ]
+   },
+   "diff_CNNtoViT_minus_ViTtoCNN": 13.19
+  }
+ },
+ "both_correct_paired": {
+  "n_common": 6991,
+  "diff_pp": 8.24,
+  "paired_bootstrap_ci95_pp": [
+   7.28,
+   9.2
+  ],
+  "signflip_permutation_p": 0.0,
+  "paired_se_pp": 0.491,
+  "tost_sensitivity": {
+   "margin_1pp": {
+    "p": 1.0,
+    "equivalent_at_0.05": false
+   },
+   "margin_2pp": {
+    "p": 1.0,
+    "equivalent_at_0.05": false
+   },
+   "margin_3pp": {
+    "p": 1.0,
+    "equivalent_at_0.05": false
+   }
+  },
+  "tost_margin_rationale": "2pp marji, egitim-kosusu duzeyindeki gozlenen varyasyonun (~PGD birkac puan) altinda kalan farklari pratikte-esdeger sayma ilkesine dayanir; +-1/+-3 duyarlilik tablosu verilir."
+ }
+}

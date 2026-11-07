@@ -1,0 +1,192 @@
+{
+  "uretildi_utc": "2026-08-25T02:35:56.124078+00:00",
+  "A_kolu_kaynak_dizin": "results/q1/e3_akolu_v2",
+  "HAVUZLAMA": "YAPILMADI. Kollar ayri uydurulur; manset iki kolun EGIMLERININ UYUSMASIDIR (E3_YENIDEN_TASARIM B.3). Ortak bir uydurma yoktur.",
+  "NICELIK": "x = ciftin temiz hata farki (puan) · y = ASIMETRININ protokoller arasi yayilimi (puan). Makalenin manset niceligiyle ayni turdendir.",
+  "kollar": {
+    "A": {
+      "n_nokta": 116,
+      "n_kume": 8,
+      "SERBESTLIK_DERECESI_NOTU": "Cikarim 8 KUME uzerinden kume bootstrap iledir; n=116 SERBESTLIK DERECESI DEGILDIR.",
+      "x_araligi": [
+        0.8900000000000023,
+        30.310000000000002
+      ],
+      "dort_protokol": {
+        "egim": 0.27286580772637714,
+        "kesisim": 9.401241692821483,
+        "pearson_r": 0.3378145660951127,
+        "egim_GA95": [
+          0.21890618424867542,
+          0.37117129190700465
+        ],
+        "GA_sifiri_iceriyor_mu": false,
+        "y_araligi": [
+          1.0448,
+          36.9808
+        ]
+      },
+      "uc_protokol_bas_kaynak_haric": {
+        "egim": 0.672682402843883,
+        "kesisim": 0.798627605514145,
+        "pearson_r": 0.980288025407217,
+        "egim_GA95": [
+          0.6015534196732435,
+          0.7272352044847634
+        ],
+        "GA_sifiri_iceriyor_mu": false,
+        "y_araligi": [
+          0.23719999999999786,
+          22.4285
+        ]
+      }
+    },
+    "B": {
+      "n_nokta": 18,
+      "n_kume": 6,
+      "SERBESTLIK_DERECESI_NOTU": "Cikarim 6 KUME uzerinden kume bootstrap iledir; n=18 SERBESTLIK DERECESI DEGILDIR.",
+      "x_araligi": [
+        0.5900000000000034,
+        22.29
+      ],
+      "dort_protokol": {
+        "egim": -0.5280802913889361,
+        "kesisim": 31.38536030102281,
+        "pearson_r": -0.4918184922609222,
+        "egim_GA95": [
+          -0.6640273186748088,
+          -0.41807888543101374
+        ],
+        "GA_sifiri_iceriyor_mu": false,
+        "y_araligi": [
+          12.434000000000001,
+          36.4097
+        ]
+      },
+      "uc_protokol_bas_kaynak_haric": {
+        "egim": 0.4314765037776934,
+        "kesisim": 3.1990928067921502,
+        "pearson_r": 0.8402286646767707,
+        "egim_GA95": [
+          0.332727776362541,
+          0.6330326893871534
+        ],
+        "GA_sifiri_iceriyor_mu": false,
+        "y_araligi": [
+          1.6991999999999994,
+          15.0092
+        ]
+      }
+    },
+    "B_ana_cift": {
+      "n_nokta": 6,
+      "n_kume": 6,
+      "SERBESTLIK_DERECESI_NOTU": "Cikarim 6 KUME uzerinden kume bootstrap iledir; n=6 SERBESTLIK DERECESI DEGILDIR.",
+      "x_araligi": [
+        11.270000000000003,
+        22.29
+      ],
+      "dort_protokol": {
+        "egim": -0.099875366891354,
+        "kesisim": 16.060646877256907,
+        "pearson_r": -0.4086429782727949,
+        "egim_GA95": [
+          -0.4644916109873797,
+          0.09153375591843077
+        ],
+        "GA_sifiri_iceriyor_mu": true,
+        "y_araligi": [
+          12.434000000000001,
+          15.970000000000002
+        ]
+      },
+      "uc_protokol_bas_kaynak_haric": {
+        "egim": 0.546428364752505,
+        "kesisim": 2.3931367379770703,
+        "pearson_r": 0.9835315353972918,
+        "egim_GA95": [
+          0.39816346580030904,
+          0.836592633795541
+        ],
+        "GA_sifiri_iceriyor_mu": false,
+        "y_araligi": [
+          8.3779,
+          15.0092
+        ]
+      },
+      "NOT": "B kolunun WRN'siz alt kumesi. A kolu ile AYNI havuz bilesimi; A ile fark yalniz KONTROLDUR (yorunge-ici vs gozlemsel)."
+    }
+  },
+  "A_KALDIRAC_DUYARLILIGI": {
+    "ep>=2": {
+      "n_nokta": 104,
+      "n_kume": 8,
+      "x_araligi": [
+        0.8900000000000023,
+        23.35000000000001
+      ],
+      "dort_protokol_egim": 0.20110716140646884,
+      "uc_protokol_egim": 0.6694885646664066
+    },
+    "ep>=10": {
+      "n_nokta": 100,
+      "n_kume": 8,
+      "x_araligi": [
+        0.8900000000000023,
+        23.35000000000001
+      ],
+      "dort_protokol_egim": 0.4831946488606635,
+      "uc_protokol_egim": 0.6607106646002537
+    },
+    "ep>=20": {
+      "n_nokta": 88,
+      "n_kume": 8,
+      "x_araligi": [
+        0.8900000000000023,
+        22.619999999999997
+      ],
+      "dort_protokol_egim": 0.491884056973352,
+      "uc_protokol_egim": 0.6653047147819137
+    },
+    "yorum": "Tam A kolu egimi +0.273. Erken epoklar cikarilinca [0.201, 0.483, 0.492]. Isaret KORUNUYOR; egim erken checkpointlere BAGLI DEGIL."
+  },
+  "EGIM_UYUSMASI": {
+    "dort_protokol": {
+      "A_egim": 0.27286580772637714,
+      "A_GA": [
+        0.21890618424867542,
+        0.37117129190700465
+      ],
+      "B_egim": -0.5280802913889361,
+      "B_GA": [
+        -0.6640273186748088,
+        -0.41807888543101374
+      ],
+      "GA_ortusuyor_mu": false,
+      "isaret_ayni_mi": false
+    },
+    "uc_protokol_bas_kaynak_haric": {
+      "A_egim": 0.672682402843883,
+      "A_GA": [
+        0.6015534196732435,
+        0.7272352044847634
+      ],
+      "B_egim": 0.4314765037776934,
+      "B_GA": [
+        0.332727776362541,
+        0.6330326893871534
+      ],
+      "GA_ortusuyor_mu": true,
+      "isaret_ayni_mi": true
+    },
+    "BILESIM_mi_KONTROL_mu": {
+      "aciklama": "A (kontrollu, WRN yok) ile B_ana_cift (gozlemsel, WRN yok) AYNI havuz bilesimine sahiptir; aralarindaki fark KONTROLDEN gelir. Ham B ile fark ise bilesimi de icerir.",
+      "A_egim": 0.27286580772637714,
+      "B_ana_cift_egim": -0.099875366891354,
+      "B_tum_egim": -0.5280802913889361,
+      "isaret_A_ile_B_ana_cift_ayni_mi": false,
+      "isaret_A_ile_B_tum_ayni_mi": false
+    },
+    "yorum": "Kollar ORTUSMUYOR. Bu, gozlemsel koldaki karistiricilarin etkisine isarettir ve RAPORLANMALIDIR (K8); havuzlama yine YAPILMAZ."
+  }
+}

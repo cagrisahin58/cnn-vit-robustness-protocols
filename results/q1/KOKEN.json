@@ -1,0 +1,292 @@
+{
+  "uretildi_utc": "2026-08-25T02:38:13.586263+00:00",
+  "aciklama": "Q1 bas artefaktlarinin koken kutugu. Artefaktlarin KENDISI degistirilmez; bu dosya onlarin yanindaki kanittir (IS-6h).",
+  "depo": {
+    "git_okunabildi": true,
+    "kaynak": "ana makine (q1_koken.sh)",
+    "git_sha": "2269d2655f034994194b5d1e29d9fb072dd2e10a",
+    "git_kisa": "2269d26",
+    "dal": "q1",
+    "son_commit_tarihi": "2026-08-25T05:25:34+03:00",
+    "calisma_agaci_kirli_mi": true
+  },
+  "tohumlar": {
+    "cifar10 (C1/E2)": {
+      "resnet18": [
+        1001,
+        1002,
+        1003
+      ],
+      "vit_tiny": [
+        2001,
+        2002,
+        2003
+      ]
+    },
+    "cifar100 (E1)": {
+      "resnet18": [
+        1001,
+        1002,
+        1003
+      ],
+      "vit_tiny": [
+        2001,
+        2002,
+        2003
+      ]
+    },
+    "svhn (E7-kisa)": {
+      "resnet18": [
+        1001,
+        1002
+      ],
+      "vit_tiny": [
+        2001,
+        2002
+      ]
+    },
+    "degerlendirme": {
+      "attack_seed": 42,
+      "attack_seed_ablasyon": [
+        42,
+        123,
+        456
+      ]
+    }
+  },
+  "calisma_zamani": {
+    "torch": "2.6.0a0+ecf3bae40a.nv25.01",
+    "cuda": "12.8",
+    "cudnn": 90700,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "numpy": "1.26.4",
+    "timm": "1.0.27",
+    "scipy": "1.14.1",
+    "torchvision": "0.20.0a0",
+    "robustbench": "mevcut"
+  },
+  "artefaktlar": {
+    "results/q1/e1_cifar100_summary.json": {
+      "sha256": "fd48de12015b3f42038d9cb751d49b68e1f7fa4bdab65420e87e35a035d73e6f",
+      "bayt": 5508,
+      "degistirilme_utc": "2026-08-21T06:21:27.616737+00:00"
+    },
+    "results/q1/cifar100/transfer/e1_transfer_summary.json": {
+      "sha256": "3a585301057ce126cff7236ec38fdad4db6e8082072bacae8f5160b0fe5ea430",
+      "bayt": 4677,
+      "degistirilme_utc": "2026-08-24T21:40:34.014808+00:00"
+    },
+    "results/q1/c3_precision.json": {
+      "sha256": "073601bd8239a173c2a44e0cd07453f00a87f78f172a09e5ad83920571e020a7",
+      "bayt": 3281,
+      "degistirilme_utc": "2026-08-20T10:11:19.311376+00:00"
+    },
+    "results/q1/variance_ratio.json": {
+      "sha256": "d1985f62139c88598b57780af7b88062496e6d3d81fb8e6a48434d38c0274636",
+      "bayt": 4714,
+      "degistirilme_utc": "2026-08-24T21:46:59.302332+00:00"
+    },
+    "results/q1/e3_coverage.json": {
+      "sha256": "f9b117be064ae609505c3c9da0af8799852be7961c7a0d155aee8f002061f740",
+      "bayt": 6710,
+      "degistirilme_utc": "2026-08-20T10:40:27.186790+00:00"
+    },
+    "results/q1/e3_xekseni_test.json": {
+      "sha256": "4703c47f35315d8a2bcf8c739f390e1ee68271deed6ae03d8abe1f7cbf326e57",
+      "bayt": 1305,
+      "degistirilme_utc": "2026-08-19T20:54:32.997071+00:00"
+    },
+    "results/q1/e3_bosluk_kontrol.json": {
+      "sha256": "1c2e31377b0865edaf3c77251c88a8cb3900305e7791cb380cadc8630d3fc7d5",
+      "bayt": 3157,
+      "degistirilme_utc": "2026-08-20T13:55:34.114472+00:00"
+    },
+    "results/q1/ozdeslik_kontrol.json": {
+      "sha256": "784c5fd567e824ba108d947d86c6c8c563b2ca21cc4585c0c0c6471fb663b717",
+      "bayt": 16356,
+      "degistirilme_utc": "2026-08-20T14:05:03.075503+00:00"
+    },
+    "results/q1/e3_spread_teshis.json": {
+      "sha256": "adbf36006390bed010c2971b717c7b8195f9b3b77bd493d90183a97fd6fadc63",
+      "bayt": 14916,
+      "degistirilme_utc": "2026-08-24T21:51:01.299159+00:00"
+    },
+    "results/q1/e3_asimetri_fit.json": {
+      "sha256": "20f185ff11a819dff949a43eba3bf96661600f30483981eb9a046a6902f1c17f",
+      "bayt": 13219,
+      "degistirilme_utc": "2026-08-24T21:49:47.529599+00:00"
+    },
+    "results/q1/e3_asimetri_fit_svhnli.json": {
+      "sha256": "83036e27eeefa2ccd00ef38a3139e063dc283b0208bab0ac0497b2189d08d961",
+      "bayt": 14583,
+      "degistirilme_utc": "2026-08-24T21:49:48.296599+00:00"
+    },
+    "results/rev2_blockA/a2_transfer_protocols.json": {
+      "sha256": "219785022bd3edcfc47b060b9ef5e8dec1e0b94cb5248aa305c932a23417ac38",
+      "bayt": 2267,
+      "degistirilme_utc": "2026-08-25T01:57:38.004501+00:00"
+    },
+    "results/q1/e3_surucu_ayristirma.json": {
+      "sha256": "2600e0270fb24ff67295d4198bd2d3493cae7ac9b610df7ebf8f213256e8cd7e",
+      "bayt": 2348,
+      "degistirilme_utc": "2026-08-24T21:49:58.711273+00:00"
+    },
+    "results/q1/e3_iki_kol_fit.json": {
+      "sha256": "57a672e4a859923cca350138884907a9f0f5e36219969214a589a151a06999ce",
+      "bayt": 5719,
+      "degistirilme_utc": "2026-08-25T02:36:00.875599+00:00"
+    },
+    "results/q1/e7_svhn_summary.json": {
+      "sha256": "18e29ddedea998e3f63c839ff520c8388bb12c50a9f0a30084f3ef8ac79bc01e",
+      "bayt": 4156,
+      "degistirilme_utc": "2026-08-21T06:21:27.378459+00:00"
+    },
+    "results/q1/svhn/transfer/e7_transfer_summary.json": {
+      "sha256": "9157cef398b671235fa177dc83d51dda525ddf3b55bdfd8eac3ca3bf6c0435b4",
+      "bayt": 4025,
+      "degistirilme_utc": "2026-08-24T21:40:34.331141+00:00"
+    },
+    "results/q1/b8_secim_bandi.json": {
+      "sha256": "ffe0d9f693c494d7498b13883b1e4212e38173985247eb0006ee49868360a28b",
+      "bayt": 30200,
+      "degistirilme_utc": "2026-08-24T20:35:39.614206+00:00"
+    },
+    "results/q1/cifar10_l2/e6_aa_l2_summary.json": {
+      "sha256": "847bf9bcb73cdc63b74927227631ced8ef869b564e8429badd95727e0a5abc52",
+      "bayt": 2664,
+      "degistirilme_utc": "2026-08-21T11:43:44.106833+00:00"
+    },
+    "results/q1/cifar10_l2/e6_onkestirim.json": {
+      "sha256": "a90f42855eea8631b437064518cee7880676d5f76aed9af7b75721c1e8827a5b",
+      "bayt": 4005,
+      "degistirilme_utc": "2026-08-24T21:51:02.440091+00:00"
+    },
+    "results/q1/cifar10_l2/transfer/e6_l2_transfer_summary.json": {
+      "sha256": "700512b9a84a5c1321ed76eab3390682b7979ff414fd926d3abed1572797d672",
+      "bayt": 4573,
+      "degistirilme_utc": "2026-08-24T21:40:34.634475+00:00"
+    },
+    "results/q1/e2/e2_report.json": {
+      "sha256": "aae297ba45f21d322e3ffcb578c57759edd6fcf96bf8ec5e929b9d2bab9f2447",
+      "bayt": 16026,
+      "degistirilme_utc": "2026-08-17T09:59:03.358850+00:00"
+    },
+    "results/q1/e2/e2_grid.json": {
+      "sha256": "74733741aa2a8335ea77984b2caf2a6d447a5a592c5d2741e5660bab843247e5",
+      "bayt": 47930,
+      "degistirilme_utc": "2026-08-17T14:56:16.782348+00:00"
+    },
+    "results/c1_seeds/c1_seed_summary.json": {
+      "sha256": "7b9b3ce499d7501439c78aee47937e19b13f1f920d880bcd3a1e3664185a1b2b",
+      "bayt": 10030,
+      "degistirilme_utc": "2026-08-06T17:49:29.993521+00:00"
+    },
+    "results/c1_transfer/c1_transfer_summary.json": {
+      "sha256": "8d79cacee00cfecdd77d225136f6f961c0e7e9e845989e2936ad353936737f76",
+      "bayt": 4711,
+      "degistirilme_utc": "2026-08-24T21:40:33.707142+00:00"
+    },
+    "results/c1_c3/c3_summary.json": {
+      "sha256": "bc13df4bcd92693991bbf307bd0b12261933b90ef91be60336ef13673c3351f7",
+      "bayt": 2763,
+      "degistirilme_utc": "2026-08-20T00:03:22.789513+00:00"
+    },
+    "results/c1_eval_summary.json": {
+      "sha256": "cbfb012eccbb581d2a5734091fc3bcc10eb3215e1091b24222b8be6a31d73e15",
+      "bayt": 3041,
+      "degistirilme_utc": "2026-08-06T17:49:29.989483+00:00"
+    },
+    "results/c1_behavior_summary.json": {
+      "sha256": "af0767a487c9bf310130b9696c842fe62398f6f9d9e547daf82ce16f1b796d9d",
+      "bayt": 10073,
+      "degistirilme_utc": "2026-08-06T17:49:29.965258+00:00"
+    },
+    "results/c1_c45_summary.json": {
+      "sha256": "716b356fe0adb7d84231a6f67d893b95f8b6d94f78fa897faed97d14b46d5a18",
+      "bayt": 9298,
+      "degistirilme_utc": "2026-08-06T17:49:29.981408+00:00"
+    },
+    "results/c1_statval/statistical_validation.json": {
+      "sha256": "4b7bf3f48e7ebb2a29cf56288270a7206d3d8559bf13d8156b66b8d1ce8d0b95",
+      "bayt": 802,
+      "degistirilme_utc": "2026-08-06T17:49:30.017747+00:00"
+    },
+    "results/stat_addendum/stat_addendum.json": {
+      "sha256": "07bce2c1981876f97293addc996dd0ff4ec847302a563d6dd6f6ff81652123e1",
+      "bayt": 2220,
+      "degistirilme_utc": "2026-07-10T12:59:04.713128+00:00"
+    },
+    "results/rev2_blockA/a3_gradient_paired.json": {
+      "sha256": "5e03bd6e26ebb1089339b8e4bf66c3accf7d2d06d77d48e85705c3ec22228daa",
+      "bayt": 2278,
+      "degistirilme_utc": "2026-07-29T00:34:49.918406+00:00"
+    },
+    "results/rev2_blockA/a3_per_sample.npz": {
+      "sha256": "81e4fd0137fe7791b7016dec5f258fcfcc4bb2b81d0954c9c1a429500334cea3",
+      "bayt": 16088,
+      "degistirilme_utc": "2026-07-29T00:34:49.918406+00:00"
+    },
+    "results/c1_c2/pair1/tgr_summary.json": {
+      "sha256": "7b2327472964b9e383303c360f3497803ad47ce3c529c524b4f7b835ce3141b5",
+      "bayt": 1209,
+      "degistirilme_utc": "2026-08-06T17:49:29.965258+00:00"
+    },
+    "results/c1_c2/pair2/tgr_summary.json": {
+      "sha256": "fdc5f75d3a03fc90d0ef1e4408ed25ef032762778519c80844419fd65a81006e",
+      "bayt": 1209,
+      "degistirilme_utc": "2026-08-06T17:49:29.969296+00:00"
+    },
+    "results/c1_c2/pair3/tgr_summary.json": {
+      "sha256": "343915a4a9790061969807701c5d81cbdf114a13f9863956184222d721d1ce0e",
+      "bayt": 1211,
+      "degistirilme_utc": "2026-08-06T17:49:29.969296+00:00"
+    },
+    "results/c1_a5/pair1/a5_tsne_quant.json": {
+      "sha256": "7e39cb99ba55941e2ee36616d40331716931884de5f70e7c803ff9b882f7ad70",
+      "bayt": 1613,
+      "degistirilme_utc": "2026-08-06T17:49:29.961221+00:00"
+    },
+    "results/c1_a5/pair2/a5_tsne_quant.json": {
+      "sha256": "63d1dd799ffcd5f5885de0277771c7a5a28b65fead6be802643f8ac4e1210df0",
+      "bayt": 1612,
+      "degistirilme_utc": "2026-08-06T17:49:29.961221+00:00"
+    },
+    "results/c1_a5/pair3/a5_tsne_quant.json": {
+      "sha256": "cc864b90d7fdf922e79355188b669f2c338caf125e37b260621b6e719e11da13",
+      "bayt": 1608,
+      "degistirilme_utc": "2026-08-06T17:49:29.961221+00:00"
+    },
+    "results/c1_c4/pair1/c4_summary.json": {
+      "sha256": "771766ea68cd2f5e38ad21770f7d992ef44e994fae1fff94184c9df0965d03f6",
+      "bayt": 25622,
+      "degistirilme_utc": "2026-08-06T17:49:29.977371+00:00"
+    },
+    "results/c1_c4/pair2/c4_summary.json": {
+      "sha256": "b9ae73f60a98d4ca7d8509a7b364d31e0161f9e63cb4fa5230eb0de0fda81172",
+      "bayt": 25616,
+      "degistirilme_utc": "2026-08-06T17:49:29.977371+00:00"
+    },
+    "results/c1_c4/pair3/c4_summary.json": {
+      "sha256": "f05ba69788be5e84fb8c406879ec7b93e94b59a55c0ddb7c1e2353baae7f7286",
+      "bayt": 25617,
+      "degistirilme_utc": "2026-08-06T17:49:29.977371+00:00"
+    },
+    "results/c1_c5/pair1/c5_spatial.json": {
+      "sha256": "580c5ba0dd7c1201ada867128b80707fed2dcf30825f1cd993ff939a1c81ee7c",
+      "bayt": 2101,
+      "degistirilme_utc": "2026-08-06T17:49:29.981408+00:00"
+    },
+    "results/c1_c5/pair2/c5_spatial.json": {
+      "sha256": "4f0aa0c344e373ac3ebe9115a30cc6d207d72e75cd3100b0ad92369c49d514b6",
+      "bayt": 2093,
+      "degistirilme_utc": "2026-08-06T17:49:29.981408+00:00"
+    },
+    "results/c1_c5/pair3/c5_spatial.json": {
+      "sha256": "1bc687d1c15b12b7b4b364422dfab83ced7b0a6b6aaef1938dbc4e7a6b4ae487",
+      "bayt": 2083,
+      "degistirilme_utc": "2026-08-06T17:49:29.981408+00:00"
+    }
+  },
+  "eksik_artefaktlar": [],
+  "not": "eksik_artefaktlar bos degilse o deneyler henuz kosulmamistir (ornegin E7/SVHN veya E6/L2 ciktilari)."
+}

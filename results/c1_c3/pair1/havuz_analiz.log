@@ -1,0 +1,9 @@
+yazildi: results/c1_c3/pair1/havuz_protokoller.json
+modeller: ['ResNet18_AT', 'ViT_Tiny_AT', 'WRN_28_10']
+temiz: {'ResNet18_AT': 85.37, 'ViT_Tiny_AT': 74.1, 'WRN_28_10': 89.48}
+p min/max: 0.9938482570061518 1.0 | artik max: 0.09000000000000341
+  ResNet18_AT->ViT_Tiny_AT                 asim raw/tc/bc/ss = +13.19/+4.81/+8.49/+21.01  yayilim4=16.20 yayilim3=8.38 temiz_fark=11.27
+  ResNet18_AT->WRN_28_10                   asim raw/tc/bc/ss = -11.10/-8.80/-10.45/-45.21  yayilim4=36.41 yayilim3=2.30 temiz_fark=4.11
+  ViT_Tiny_AT->WRN_28_10                   asim raw/tc/bc/ss = -21.27/-9.80/-12.68/-42.86  yayilim4=33.06 yayilim3=11.47 temiz_fark=15.38
+egim: {'dort_protokol': (-0.58, [-0.579780742576324, -0.579780742576324]), 'uc_protokol_bas_kaynak_haric': (0.818, [0.8177036484689464, 0.8177036484689464])}
+ayristirma: {'kaynak_etkisi': {'ResNet18_AT': 1.73, 'ViT_Tiny_AT': -3.36, 'WRN_28_10': 1.63}, 'hedef_etkisi': {'ResNet18_AT': 3.06, 'ViT_Tiny_AT': 1.5, 'WRN_28_10': -4.56}, 'artik_max_mutlak': 0.6346297104574212, 'R2': 0.9791108578072724}

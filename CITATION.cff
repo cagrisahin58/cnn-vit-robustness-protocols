@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or these records, please cite the paper below."
+title: "cnn-vit-robustness-protocols"
+abstract: "Code, per-sample evaluation records, pre-registration documents and verification scripts for the paper 'Less a Weak Source than a Different One: Vulnerability, Similarity and Direction in CNN-ViT Adversarial Transfer under an Architecture-by-Initialization Design'. The paper factors log target-correct transfer rates between adversarially trained models into target vulnerability, symmetric similarity and a directional residual against a fixed panel of seven robust CNNs, and tests registered predictions in an architecture-by-initialization design on CIFAR-10, with CIFAR-100, ImageNetV2 and gradient-alignment addenda."
+authors:
+  - family-names: Sahin
+    given-names: Cagri
+    affiliation: "Mus Alparslan University"
+  - family-names: Yildirim
+    given-names: Ozal
+    affiliation: "Firat University"
+year: 2026
+repository-code: "https://github.com/cagrisahin58/cnn-vit-robustness-protocols"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Less a Weak Source than a Different One: Vulnerability, Similarity and Direction in CNN-ViT Adversarial Transfer under an Architecture-by-Initialization Design"
+  authors:
+    - family-names: Sahin
+      given-names: Cagri
+    - family-names: Yildirim
+      given-names: Ozal
+  year: 2026
+  notes: "Submitted to IEEE Access."
